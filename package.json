@@ -18,5 +18,13 @@
   },
   "bin": {
     "swagger-codegen-cli": "bin/swagger-codegen"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yobryon/swagger-codegen-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/yobryon/swagger-codegen-cli/issues"
+  },
+  "homepage": "http://yobryon.github.io/swagger-codegen-cli"
 }
