@@ -1,0 +1,8 @@
+#! /usr/bin/env node
+var shell = require('shelljs');
+var path = require('path');
+
+var args = process.argv.slice(2);
+var jarPath = path.resolve(__dirname,'..','vendor','swagger-codegen-cli.jar');
+var cmd = `java -jar ${jarPath} ${args.join(' ')}`;
+shell.exec(cmd);

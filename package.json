@@ -1,0 +1,22 @@
+{
+  "name": "swagger-codegen-cli",
+  "version": "0.0.0",
+  "description": "A node wrapper for Swagger's Codegen CLI",
+  "main": "index.js",
+  "author": "yobryon <bryon.williams@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "download": "^6.2.5",
+    "request": "^2.81.0",
+    "rimraf": "^2.6.1",
+    "semver": "^5.4.1",
+    "shelljs": "^0.7.8"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "bin": {
+    "swagger-codegen-cli": "bin/swagger-codegen"
+  }
+}
