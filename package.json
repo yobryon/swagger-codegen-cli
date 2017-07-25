@@ -1,6 +1,6 @@
 {
   "name": "swagger-codegen-cli",
-  "version": "2.2.3",
+  "version": "2.3.0-SNAPSHOT",
   "description": "A node wrapper for Swagger's Codegen CLI",
   "main": "index.js",
   "author": "yobryon <bryon.williams@live.com>",
